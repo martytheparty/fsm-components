@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './girl-login.jpg';
 
+
+var ReactDOM = require('react-dom');
+
 function GirlLogin() {
   return (
     <div className="App">
@@ -9,4 +12,4 @@ function GirlLogin() {
   );
 }
 
-export default GirlLogin;
+ReactDOM.render(<MyComponent />, node);
